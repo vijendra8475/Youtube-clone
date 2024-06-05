@@ -1,0 +1,219 @@
+html,body{
+    background-color: #0f0f0f;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(245, 243, 239);
+}
+nav{
+    height: 120px;
+    background-color: #0f0f0f;
+    width: 100%;
+    /* background-color: #ffffff; */
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+#nav_top{
+    height: 60%;
+    /* background-color: aquamarine; */
+}
+#nav_top_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu{
+    height: 40px;
+    width: 40px;
+    background-color: hsla(0, 0%, 19%, 1);
+    /* margin-left: 10px; */
+    margin-right: 20px;
+    border-radius: 50%;
+    /* background-color: #ffffff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    height: 35px;
+}
+
+#nav_top{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+#nav_top_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+search{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+input{
+    height: 35px;
+    width: 500px;
+    border-radius: 40px 0px 0px 40px;
+    border-color: hsla(0, 0%, 19%, 1);
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 3px;
+    background-color: transparent;
+}
+#search_btn{
+    height: 35px;
+    width: 50px;
+    border-radius: 0px 40px 40px 0px;
+    border: 2px solid hsla(0, 0%, 19%, 1);
+    background-color: hsla(0, 0%, 19%, 1);
+    padding: 2px 0px 0px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+mic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 19%, 1);
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-top-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#side_btn1,#side_btn2,#side_btn3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 19%, 1);
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sidebar{
+    padding-top: 10px;
+    height: 100%;
+    width: 100px;
+    background-color: #0f0f0f;
+    /* background-color: aliceblue; */
+    position: fixed;
+    top: 60px;
+    z-index: 100;
+}
+
+.side_btns{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 74px;
+    padding: 16px 0px 14px;
+}
+
+#sub{
+    color: white;
+    border: 1px solid #ffffff;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+#nav_bottom{
+    margin-left: 100px;
+    padding: 0px 24px;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.ctg_btn{
+    color: rgb(245,243,239);
+    box-sizing:unset;
+    font-size: 14px;
+    height: 32px;
+    display: inline;
+    padding: 0px 12px 0px;
+    margin: 12px 20px 12px 0px;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: rgb(255,255,255,0.1)
+}
+a{
+    text-decoration: none;
+}
+#ctg_btn1{
+    color: #0f0f0f;
+    background-color: #ffffff;
+}
+
+#ctg_btn2:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn3:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn4:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn5:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn6:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn7:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn8:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn9:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn10:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn11:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+#ctg_btn12:hover{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}

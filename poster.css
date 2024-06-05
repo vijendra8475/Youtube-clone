@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#poster{
+    margin-top: 132px;
+    margin-left: 100px;
+    width: 100% - 25px;
+    padding-left: 25px;
+    padding-right: 25px ;
+    padding-top: 10px;
+    height: 250px;
+    /* background-color: antiquewhite; */
+    background-image: url("https://www.gstatic.com/youtube/img/promos/growth/3300985d3fcd055eee35a3388df0b49c62bb96bb287cc11a49c99b0617ccdc77_2560x520.png");
+}
+#close{
+    position:absolute;
+    /* top: 10px; */
+    right: 10px;
+}
+#premium{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#yt_pre{
+    height: 50px;
+    width: 388.78px;
+    position: relative;
+    right: 60px;
+}
+text{
+    color: #0f0f0f;
+    /* background-color: antiquewhite; */
+    width: 460px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#reactivate{
+    color: #0f0f0f;
+    box-sizing: unset;
+    font-weight: 600;
+    height: 40px;
+    padding: 0px 12px 0px;
+    width: 120px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 2px solid;
+    transition-duration: 0.3s;
+}
+#reactivate:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
